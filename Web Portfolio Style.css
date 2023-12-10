@@ -1,0 +1,55 @@
+body {background-color: bisque;}
+/*Sets the entire background color of webpage to bisque*/
+
+  h1 {
+    font-size: 92px;
+    color: darkslategray;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  /*Sets font size 92px, the spacing at the bottom of the text to 10px with the rest of the margin being 0 to allow full color of the header, and color of text to darkslategray,*/
+
+  h2 {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  /*Sets font size to 30px and spacing at the top to 10px*/
+
+  h4 {
+    padding-top: 10px;
+    height: 40px;
+    margin: 0;
+    color: darkslategray;
+    font-size: 20px;
+  }
+  /*Add padding of 10px to the top of the footer text. Raises the text by 40px. Margin is set to 0 to allow full color of the footer. Sets font size to 20px and color of text to darkslategray*/
+
+  main {padding-left: 450px; padding-right: 450px;}
+  /*The main text body with added padding on the left and right side of 450px to make the area taken up by text thinner than default*/
+
+  header, footer{background-color: rgb(216, 216, 216);}
+  /*Set the header and footer to the light gray color specified*/
+
+  img {margin-left: 27%; margin-right: 27%; width: 40%; height: 600px; border: 20px solid; border-radius: 10px; border-color: darkslategray;}
+  /*Margin-left and margin-right sets the picture to the middle of the web page. Width of the picture is set to 40%, and height to 600px. A solid darkslategray border is added to picture that is 20px thick with the edges of the picture rounded off.  */
+
+  h1, h2, h3, h4, p {font-family: 'Times New Roman', Times, serif; text-align: center; }
+  /*Sets all text on the page(besides ul and ol) to be times new roman, then times, then serif depending on fotn availability. All text is centered*/
+
+  h4, p, ul, ol {font-size: 20px;}
+  /*Sets the font of text that are in parameter h4, p, ul, and ol to be 20px in size*/
+
+  h3 {font-size: 25px;}
+  /*Sets text in paramter h3 to be 25px in size*/
+
+  ul, ol {font-family: 'Times New Roman', Times, serif; margin-left:40%; list-style-position: inside;}
+  /*Sets text in ul and ol parameter to be times new roman, times, then serif depending on availability. sets the location to be 40% left of the page and have the listing part (bullet point/number be moved along with the listed items.*/
+
+  a:link {color: darkslategray;}
+  /*The color of the link will be defaulted to darkslategray*/
+
+  a:visited, a:active {color: red}
+  /*Once link is visited or clicked on, the link will become red*/
+
+  a:hover {color: rgb(216, 216, 216)}
+  /*When hovering over the link it will be the very light gray*/
